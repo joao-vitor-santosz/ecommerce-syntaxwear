@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SyntaxWear - Sneakers Online</title>
-    
+
     <!-- CSS Links -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="/css/componentes/header.css">
+    <link rel="stylesheet" href="./css/componentes/header.css">
+    <link rel="stylesheet" href="./css/componentes/hero.css">
 </head>
+
 <body>
     <!-- Topo da página com logo e menu -->
     <header class="header">
@@ -56,11 +59,22 @@
     <!-- Área principal do conteúdo -->
     <main>
         <!-- Banner promocional de destaque -->
-        <section class="hero"></section>
-        
+        <section class="hero">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Krypton One</span>
+                    <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-outline">Ver modelos</a>
+                        <a href="#" class="btn btn-filled">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Lista de categorias de produtos -->
         <section class="categories"></section>
-        
+
         <!-- Vitrine de produtos populares -->
         <section class="featured-products"></section>
     </main>
@@ -68,4 +82,5 @@
     <!-- Rodapé com informações e links -->
     <footer class="site-footer"></footer>
 </body>
+
 </html>
