@@ -3,7 +3,7 @@
 .categories {
     padding: 40px 0;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
@@ -52,4 +52,10 @@
 .futurista {
     background: url(../../images/products/futurista.jpg) no-repeat center;
     background-size: cover;
+}
+
+@media (max-width: 500px) {
+    .category-card {
+        width: 100%;
+    }
 }
